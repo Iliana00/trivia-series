@@ -1,0 +1,20 @@
+{
+    "series": "Friends",
+    "options": [
+        {
+        "question": "Who is the most sarcastic character?",
+        "right": "correcto",
+        "wrong1": "incorrecto",
+        "wrong2": "incorrecto",
+        "wrong3": "incorrecto"
+        },
+        {
+        "question": "kvjnsdnvj sarcastic character?",
+        "right": "blbla",
+        "wrong1": "npo",
+        "wrong2": "nop",
+        "wrong3": "nop"
+        }
+    ]
+
+}

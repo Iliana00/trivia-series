@@ -1,6 +1,8 @@
-//document.getElementById('bttnStart').addEventListener('click', (e) => {
- //   location.href='options.html'
-//})
+window.onload = function() {
+  base_preguntas = readText("questions.json")
+  interprete_bp = JSON.parse(questions)
+  chooseQuestion()
+}
 function myName() {
     let name = document.getElementById('name').value; 
     if (name == ""){
@@ -8,6 +10,31 @@ function myName() {
   } else{
    localStorage.setItem('name', name);
   window.location="options.html";
-  //return false; 
-  }
-  }
+  }};
+
+function chooseQuestion () {
+  document.getElementById("bttnFriends").addEventListener('click', (e) => {
+    location.href="./friends/friends.html";
+    //const qtion = getElementById("qtion");
+    select_id("qtion").innerHTML = friends.question;
+  });
+} 
+
+document.getElementById("bttnFriends").addEventListener('click', (e) => {
+  location.href="./friends/friends.html";
+});
+
+document.getElementById("bttnFriends").addEventListener('click', (e) => {
+  location.href="./friends/friends.html";
+});
+
+document.getElementById("bttnFriends").addEventListener('click', (e) => {
+location.href="./friends/friends.html";
+})
+document.getElementById("bttnFriends").addEventListener('click', (e) => {
+  location.href="./friends/friends.html";
+})
+document.getElementById("bttnFriends").addEventListener('click', (e) => {
+location.href="./friends/friends.html";
+})
+
